@@ -1,0 +1,22 @@
+{
+    "name": "jakopec-php/p3restapi",
+    "description": "Primjer kreiranja REST API za potrebe kolegija Programiranje 3.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Maja Šimenić",
+            "email": "msimenic@ffos.hr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "msimenic_20\\": "src/msimenic_20"
+        }
+    },
+    "require": {
+        "mikecao/flight": "*",
+        "doctrine/orm": "*",
+        "symfony/serializer": "*",
+        "symfony/property-access": "*"
+    }
+}
